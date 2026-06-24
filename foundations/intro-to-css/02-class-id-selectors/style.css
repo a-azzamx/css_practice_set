@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+
+p {
+    background-color: pink;
+    font-family: verdana, 'DejaVu sans', sans-serif;
+}
+
+.evn-prime {
+    color: blue;
+    font-size: 36;
+}
+
+#four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

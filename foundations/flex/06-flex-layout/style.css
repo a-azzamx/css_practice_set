@@ -24,3 +24,59 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* MY SOLUTION */
+
+ul {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 8px;
+  list-style-type: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 10px;
+
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rgb(50, 48, 48);
+}
+
+.content {
+  /* width: 60%; /* Give the div a width less than 100% */
+  /* margin: 0px auto 0 auto; top, right, bottom, left */ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 16px 0px 0px 0px;
+  gap: 16px;
+
+}
+
+.footer {
+  background-color: rgb(217, 216, 216);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

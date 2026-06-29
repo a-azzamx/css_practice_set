@@ -24,3 +24,35 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* MY SOLUTION */
+
+.title {
+  align-items: center;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+li {
+  width: 150px;
+  height: 150px;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.text {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
